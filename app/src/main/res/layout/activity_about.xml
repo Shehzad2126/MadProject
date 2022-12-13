@@ -10,7 +10,7 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vijay Joshi"
+        android:text="shzad Ali"
         android:textColor="@color/blackColor"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -24,7 +24,7 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="B.Tech 2nd Year CSE"
+        android:text="Software engineer"
         android:textColor="@color/blackColor"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,13 +43,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/profilepic" />
+        app:srcCompat="@drawable/ffgf" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Indian Institute of Information Technology, Pune"
+        android:text="Superior university"
         android:textColor="@color/blackColor"
         android:textSize="18sp"
         android:textAlignment="center"

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -42,6 +43,7 @@ public class LoginPage extends AppCompatActivity {
                 RegisterPage.getuser();
                 ph = phoneno.getText().toString();
                 pa = pass.getText().toString();
+                Log.wtf("hello","im cliucked");
                 RegisterPage.databaseUsers.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -49,6 +51,7 @@ public class LoginPage extends AppCompatActivity {
                         for (DataSnapshot userSnapshot : dataSnapshot.getChildren()) {
                             MemberReg memberReg = userSnapshot.getValue(MemberReg.class);
                             String dpn = memberReg.getUsername();
+                            Log.wtf("hg","gfr");
                             String dph = memberReg.getPhone();
                             String dpa = memberReg.getPassword();
                             if (dph.equals(ph) && dpa.equals(pa)) {

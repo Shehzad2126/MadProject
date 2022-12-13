@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "247463173126",
-    "firebase_url": "https://smartkart-e63e9.firebaseio.com",
-    "project_id": "smartkart-e63e9",
-    "storage_bucket": "smartkart-e63e9.appspot.com"
+    "project_number": "601160264057",
+    "firebase_url": "https://smart-kart-app-f0b9e-default-rtdb.firebaseio.com",
+    "project_id": "smart-kart-app-f0b9e",
+    "storage_bucket": "smart-kart-app-f0b9e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:247463173126:android:b17fed7432f84e7d18f787",
+        "mobilesdk_app_id": "1:601160264057:android:78d9e1cd6b1abc3caa27a8",
         "android_client_info": {
           "package_name": "com.example.smartkartapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "247463173126-oh8p3ksocvsb20ot9h1r9qmvhouknfl6.apps.googleusercontent.com",
+          "client_id": "601160264057-kh79do3lpu71ovmpqmrr6ud7kcqu7q3g.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.smartkartapp",
-            "certificate_hash": "412877a2e2f42df8591c38fde90619adb62c64e5"
+            "certificate_hash": "09517eb2bce61075dacc6cd7db4505810cac272d"
           }
         },
         {
-          "client_id": "247463173126-tq48urbbnndru1st4forq9sphbidas1g.apps.googleusercontent.com",
+          "client_id": "601160264057-vvuvjv403u7p4956mueldhod006vlq3s.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAoXoTOJq3C2Utl5TbXBdIjYytkMHVpAkU"
+          "current_key": "AIzaSyBkETwgEFQeLUHXgIRvQZYg1JJETnZLi5E"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "247463173126-tq48urbbnndru1st4forq9sphbidas1g.apps.googleusercontent.com",
+              "client_id": "601160264057-vvuvjv403u7p4956mueldhod006vlq3s.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -72,7 +72,7 @@ Button clothing,electronics,books,otherItems;
         final String spa=getIntent().getStringExtra("PASSWORD");
         final String ca=getIntent().getStringExtra("CALLINGACTIVITY");
         if(ca.equals("LoginPage"))
-            Toast.makeText(this,"Hello ,"+sna+"!",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Hello ,",Toast.LENGTH_SHORT).show();
         else if(ca.equals("PlaceOrder"))
             Toast.makeText(this,"Order Placed Successfully!",Toast.LENGTH_LONG).show();
         clothing.setOnClickListener(new View.OnClickListener() {
